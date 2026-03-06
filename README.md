@@ -39,18 +39,33 @@ PostgreSQL 12 или выше
 Структура проекта
 shoe/
 ├── Assets/               # Изображения и ресурсы
+
 │   └── import/           # Фото товаров
+
 ├── Models/               # Entity модели (сгенерированы EF)
+
 │   ├── User.cs
+
 │   ├── Product.cs
+
 │   ├── Supplier.cs
+
 │   └── ...
+
 ├── Services/             # Сервисы
+
 │   ├── DatabaseService.cs # Работа с БД
+
 │   └── MessageBox.cs     # Кастомные диалоги
+
 ├── Windows/              # Окна приложения
+
 │   ├── Authorization.axaml
+
 │   ├── Manager.axaml     # Окно менеджера
+
 │   └── Products.axaml    # Каталог товаров
+
 ├── shoe.csproj
+
 └── Program.cs
