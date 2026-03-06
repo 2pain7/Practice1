@@ -37,7 +37,9 @@ Npgsql - провайдер PostgreSQL для EF Core
 PostgreSQL 12 или выше
 
 Структура проекта
+
 shoe/
+
 ├── Assets/               # Изображения и ресурсы
 
 │   └── import/           # Фото товаров
